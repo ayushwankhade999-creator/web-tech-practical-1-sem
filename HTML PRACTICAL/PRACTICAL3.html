@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Layout Example</title>
+</head>
+<body>
+    <h1>Table-Based Webpage Layout</h1>
+
+    <table border="2" width="80%" align="center" cellpadding="10">
+        <caption><b>My Sample Webpage Layout Using Table</b></caption>
+
+        <tr bgcolor="#d3d3d3" align="center">
+            <th colspan="2">Welcome to My Website</th>
+        </tr>
+        
+        <tr>
+            <td colspan="2" align="center" bgcolor="#f0f8ff">
+                <a href="#">Home</a> |
+                <a href="#">About</a> |
+                <a href="#">Gallery</a> |
+                <a href="#">Contact</a>
+            </td>
+        </tr>
+
+        <tr valign="top">
+            <td width="25%" bgcolor="#f9f9f9">
+                <h3 align="center">Menu</h3>
+                <ul>
+                    <li>HTML Basics</li>
+                    <li>CSS Styling</li>
+                    <li>JavaScript</li>
+                    <li>Projects</li>
+                </ul>
+            </td>
+
+            <td width="75%">
+                <h2 align="center">Welcome!</h2>
+                <p align="justify">
+                    This is an example of using <b>tables</b> to create a basic web page layout.
+                    The table has multiple rows and columns, with some cells <i>merged</i> using
+                    the <code>colspan</code> attribute.
+                </p>
+                <p align="justify">
+                    Although modern layouts are made with <b>CSS Grid</b> or <b>Flexbox</b>, this
+                    technique helps beginners understand how early web pages were structured.
+                </p>
+            </td>
+        </tr>
+
+        <!-- Footer Row -->
+        <tr bgcolor="#d3d3d3" align="center">
+            <td colspan="2">&copy; 2025 My Website</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
